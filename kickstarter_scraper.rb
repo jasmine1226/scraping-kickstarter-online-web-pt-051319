@@ -17,3 +17,4 @@ create_project_hash
 # titles: kickstarter.css("h2.bbcard_name strong a").text
 # image link: kickstarter.css("div.project-thumbnail a").attribute("src").value
 # description: kickstarter.css("p.bbcard_blurb").text
+# location: kickstarter.css("ul.project-meta li a span.location-name").text
